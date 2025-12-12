@@ -5,7 +5,7 @@ import About from './components/about/About'
 import Experience from './components/experience/Experience'
 import Service from './components/services/Service'
 import Portfolio from './components/portfolio/Portfolio'
-import Testimonial from './components/testimonials/Testimonial'
+import Certificate from './components/certificates/Certificate'
 import Contact from './components/contacts/Contact'
 import Footer from './components/footer/Footer'
 import Theme from './components/theme/Theme'
@@ -22,7 +22,7 @@ function App() {
      <Experience/>
      <Service/>
      <Portfolio/>
-     <Testimonial/>
+     <Certificate/>
      <Contact/>
      <Footer/>
 
