@@ -31,7 +31,7 @@ const data = [
   {
     certificate: certificate3,
     name: "",
- },
+  },
   {
     certificate: certificate4,
     name: "",
@@ -63,7 +63,7 @@ const data = [
   {
     certificate: certificate11,
     name: "",
-  }
+  },
 ];
 
 function Certificate() {
@@ -79,36 +79,13 @@ function Certificate() {
         slidesPerView={1}
         pagination={{ clickable: true }}
       >
-        {data.map(({ certificate, name, review }, index) => {
+        {data.map(({ certificate, name }, index) => {
           return (
             <SwiperSlide key={index} className="certificate">
               <div className="client_certificate">
                 <img src={certificate} alt={name} />
               </div>
               <h5 className="client_name">{name}</h5>
-              <small className="client_review">{review}</small>
-              <div
-                data-iframe-width="150"
-                data-iframe-height="270"
-                data-share-badge-id="b55f1909-9870-42bf-80b8-c886483cdb6b"
-                data-share-badge-host="https://www.credly.com"
-              ></div>
-              <script
-                type="text/javascript"
-                async
-                src="//cdn.credly.com/assets/utilities/embed.js"
-              ></script>
-              <div
-                data-iframe-width="150"
-                data-iframe-height="270"
-                data-share-badge-id="4428f048-2687-4b07-82bc-f58d460f5412"
-                data-share-badge-host="https://www.credly.com"
-              ></div>
-              <script
-                type="text/javascript"
-                async
-                src="//cdn.credly.com/assets/utilities/embed.js"
-              ></script>
             </SwiperSlide>
           );
         })}
@@ -116,5 +93,28 @@ function Certificate() {
     </section>
   );
 }
+
+//               <div
+//                 data-iframe-width="150"
+//                 data-iframe-height="270"
+//                 data-share-badge-id="b55f1909-9870-42bf-80b8-c886483cdb6b"
+//                 data-share-badge-host="https://www.credly.com">
+//               </div>
+//               <script
+//                 type="text/javascript"
+//                 async
+//                 src="//cdn.credly.com/assets/utilities/embed.js"
+//               </script>
+//               <div
+//                 data-iframe-width="150"
+//                 data-iframe-height="270"
+//                 data-share-badge-id="4428f048-2687-4b07-82bc-f58d460f5412"
+//                 data-share-badge-host="https://www.credly.com">
+//               </div>
+//               <script
+//                 type="text/javascript"
+//                 async
+//                 src="//cdn.credly.com/assets/utilities/embed.js">
+//               </script>
 
 export default Certificate;
