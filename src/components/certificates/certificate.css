@@ -14,15 +14,8 @@
     background: var(--color-bg-variant);
     text-align: center;
     padding: 2rem;
-    border-radius: 2rem;
+    border-radius: 1.1rem;
     user-select: none;
-}
-.client_review{
-    color: var(--color-light);
-    font-weight: 300;
-    display: block;
-    width: 80%;
-    margin: 0.8rem auto 0;
 }
 
 .swipe-pagination-clickable .swiper-pagination-bullet {
