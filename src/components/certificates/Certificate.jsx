@@ -18,52 +18,68 @@ import certificate8 from "../../assets/technical/certificate8.jpg";
 import certificate9 from "../../assets/technical/certificate9.jpg";
 import certificate10 from "../../assets/technical/certificate10.jpg";
 import certificate11 from "../../assets/technical/certificate11.jpg";
+import certificate12 from "../../assets/technical/certificate12.jpg";
+import certificate13 from "../../assets/technical/certificate13.jpg";
+import certificate14 from "../../assets/technical/certificate14.jpg";
+// import certificate15 from "../../assets/technical/certificate15.jpg";
 
 const data = [
   {
     certificate: certificate1,
-    name: "",
+    name: "AI Practitioner",
   },
   {
     certificate: certificate2,
-    name: "",
+    name: "Introduction To AI",
   },
   {
     certificate: certificate3,
-    name: "",
+    name: "Document Model",
   },
   {
     certificate: certificate4,
-    name: "",
+    name: "AI Analyze: Customer Reviews",
   },
   {
     certificate: certificate5,
-    name: "",
+    name: "AI Foundation",
   },
   {
     certificate: certificate6,
-    name: "",
+    name: "Database Fundamentals",
   },
   {
     certificate: certificate7,
-    name: "",
+    name: "Connecting to MongoDB in Node.js",
   },
   {
     certificate: certificate8,
-    name: "",
+    name: "Cyber Security",
   },
   {
     certificate: certificate9,
-    name: "",
+    name: "Power BI",
   },
   {
     certificate: certificate10,
-    name: "",
+    name: "Genreative Ai Workshop",
   },
   {
     certificate: certificate11,
-    name: "",
+    name: "Introduction to NLP",
   },
+  {
+    certificate: certificate12,
+    name: "Solve For Tomorrow (Samsung)",
+  },
+  {
+    certificate: certificate13,
+    name: "Schema Design",
+  },
+  {
+    certificate: certificate14,
+    name: "Tntroduction to Deep Learning",
+  }
 ];
 
 function Certificate() {
