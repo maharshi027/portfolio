@@ -33,7 +33,7 @@ const Portfolio = () => {
         </article>
         <article className='portfolio_items'>
             <div className="portfolio_item-image">
-             <img src={IMG4} alt="" />
+             <img src={IMG3} alt="" />
             </div>  
               <h3>Youtube Backend</h3>
               <div className="portfolio_items-cta">
@@ -43,7 +43,7 @@ const Portfolio = () => {
         </article>
         <article className='portfolio_items'>
             <div className="portfolio_item-image">
-              <img src= {IMG3} alt="" />
+              <img src= {IMG4} alt="" />
             </div>  
               <h3>MBBS Abroad Study</h3>
               <div className="portfolio_items-cta">
