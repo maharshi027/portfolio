@@ -17,12 +17,12 @@
 .portfolio_items-image{
     /* border-radius: 1.5rem; */
     overflow: hidden;
-   
-        
-    
+ 
 }
 .portfolio_items-image img{
    border-radius: 1.5rem; 
+   width: 100%;
+   height: 250px;
 }
 .portfolio_items h3{
     margin: 1.2rem 0 2rem;
