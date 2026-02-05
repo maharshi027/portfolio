@@ -1,5 +1,5 @@
-import React from 'react'
-import CV from '../../assets/technical/Harshit-Resume.pdf'
+
+import CV from '../../assets/technical/Harshit_Resume.pdf'
 
 function Cta() {
   return (
