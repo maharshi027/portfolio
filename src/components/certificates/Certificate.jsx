@@ -1,7 +1,7 @@
 import "./certificate.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
+import { Pagination, Navigation, Autoplay } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -12,13 +12,10 @@ import certificate2 from "../../assets/technical/certificate2.jpg";
 import certificate3 from "../../assets/technical/certificate3.jpg";
 import certificate4 from "../../assets/technical/certificate4.jpg";
 import certificate5 from "../../assets/technical/certificate5.jpg";
+import certificate6 from "../../assets/technical/certificate6.jpg";
 import certificate7 from "../../assets/technical/certificate7.jpg";
 import certificate8 from "../../assets/technical/certificate8.jpg";
 import certificate9 from "../../assets/technical/certificate9.jpg";
-import certificate10 from "../../assets/technical/certificate10.jpg";
-import certificate11 from "../../assets/technical/certificate11.jpg";
-import certificate12 from "../../assets/technical/certificate12.jpg";
-import certificate13 from "../../assets/technical/certificate13.jpg";
 
 const data = [
   {
@@ -69,10 +66,12 @@ function Certificate() {
 
       <Swiper
         className="container certificate_container"
-        modules={[Pagination]}
+        modules={[Pagination, Navigation, Autoplay]}
         spaceBetween={40}
         slidesPerView={1}
         pagination={{ clickable: true }}
+        navigation={true}
+        autoplay={{ delay: 3000, disableOnInteraction: false }}
       >
         {data.map(({ certificate, name }, index) => {
           return (

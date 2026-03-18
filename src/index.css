@@ -170,7 +170,7 @@ img{
 
 /* =================== Media Query (Medium Devices) ================== */
 
-@media screen and(max-width:1024px){
+@media screen and (max-width:1024px){
     .container{
         width: var(--container-width-md);
     }
@@ -181,7 +181,7 @@ img{
 
 /* =================== Media Query (small Devices) ================== */
 
-@media screen and(max-width:600px){
+@media screen and (max-width:600px){
     .container{
         width: var(--container-width-md);
     }

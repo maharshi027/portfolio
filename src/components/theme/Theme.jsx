@@ -21,7 +21,7 @@ function Theme() {
   };
 
   return (
-    <button onClick={toggleTheme} className="btn">
+    <button onClick={toggleTheme} className="btn theme-toggle-btn">
       <CiBrightnessUp className='theme-icon' />
     </button>
   );

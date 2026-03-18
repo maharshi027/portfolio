@@ -9,11 +9,13 @@
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
+    transition: var(--transition);
 }
 .experience_container > div:hover{
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
+    transform: scale(1.05);
 }
 .experience_container > div h3{
     text-align: center;
@@ -56,13 +58,16 @@
 
 @media screen and (max-width:600px){
      .experience_container{
-        width: 110%;
+        width: 100%;
         gap: 1rem;
         justify-content: center;
      } 
      .experience_container > div{
         width: 100%;
         padding: 2rem 1rem;
+     }
+     .experience_content{
+        grid-template-columns: 1fr;
      }
     
 }

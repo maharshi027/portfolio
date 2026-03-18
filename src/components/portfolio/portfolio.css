@@ -1,4 +1,5 @@
 .portfolio_container{
+    width: 85%;
     display: grid;
     grid-template-columns:repeat(3, 1fr) ;
     gap: 2rem;
@@ -13,16 +14,18 @@
 .portfolio_items:hover{
     border-color: var(--color-primary-variant);
     background: transparent;
+    transform: scale(1.05);
 }
-.portfolio_items-image{
+.portfolio_item-image{
     /* border-radius: 1.5rem; */
     overflow: hidden;
  
 }
-.portfolio_items-image img{
+.portfolio_item-image img{
    border-radius: 1.5rem; 
    width: 100%;
-   height: 250px;
+   aspect-ratio: 16/9;
+   object-fit: cover;
 }
 .portfolio_items h3{
     margin: 1.2rem 0 2rem;
