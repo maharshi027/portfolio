@@ -42,30 +42,22 @@ const data = [
     name: "Database Fundamentals",
   },
   {
+    certificate: certificate6,
+    name: "Solve For Tomorrow (Samsung)",
+  },
+  {
     certificate: certificate7,
     name: "Connecting to MongoDB in Node.js",
   },
  
   {
-    certificate: certificate9,
-    name: "Power BI",
+    certificate: certificate8,
+    name: "Power BI Data Analyst",
   },
  
   {
-    certificate: certificate11,
-    name: "Introduction to NLP",
-  },
-  {
-    certificate: certificate12,
-    name: "Solve For Tomorrow (Samsung)",
-  },
-  {
-    certificate: certificate13,
-    name: "Schema Design",
-  },
-  {
-    certificate: certificate14,
-    name: "Tntroduction to Deep Learning",
+    certificate: certificate9,
+    name: "Introduction to Modern AI",
   }
 ];
 
@@ -96,28 +88,5 @@ function Certificate() {
     </section>
   );
 }
-
-//               <div
-//                 data-iframe-width="150"
-//                 data-iframe-height="270"
-//                 data-share-badge-id="b55f1909-9870-42bf-80b8-c886483cdb6b"
-//                 data-share-badge-host="https://www.credly.com">
-//               </div>
-//               <script
-//                 type="text/javascript"
-//                 async
-//                 src="//cdn.credly.com/assets/utilities/embed.js"
-//               </script>
-//               <div
-//                 data-iframe-width="150"
-//                 data-iframe-height="270"
-//                 data-share-badge-id="4428f048-2687-4b07-82bc-f58d460f5412"
-//                 data-share-badge-host="https://www.credly.com">
-//               </div>
-//               <script
-//                 type="text/javascript"
-//                 async
-//                 src="//cdn.credly.com/assets/utilities/embed.js">
-//               </script>
 
 export default Certificate;
