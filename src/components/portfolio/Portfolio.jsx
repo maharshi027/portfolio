@@ -18,7 +18,7 @@ const Portfolio = () => {
               <h3>Institute Management</h3>
               <div className="portfolio_items-cta">
                 <a href="https://github.com/maharshi027/institute-management" className='btn'>Github</a>
-                <a href="#" target='_blank' className='btn btn-primary'>Live Demo</a>
+                <a href="https://institute-management-027.vercel.app/" target='_blank' className='btn btn-primary'>Live Demo</a>
               </div>
         </article>
         <article className='portfolio_items'>
@@ -28,7 +28,7 @@ const Portfolio = () => {
               <h3>AI Ticket System</h3>
               <div className="portfolio_items-cta">
                 <a href="https://github.com/maharshi027/AI-Ticket-System" className='btn'>Github</a>
-                <a href="#" target='_blank' className='btn btn-primary'>Live Demo</a>
+                <a href="https://ai-ticket-system-delta.vercel.app" target='_blank' className='btn btn-primary'>Live Demo</a>
               </div>
         </article>
         <article className='portfolio_items'>

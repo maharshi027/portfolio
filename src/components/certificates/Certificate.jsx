@@ -12,7 +12,6 @@ import certificate2 from "../../assets/technical/certificate2.jpg";
 import certificate3 from "../../assets/technical/certificate3.jpg";
 import certificate4 from "../../assets/technical/certificate4.jpg";
 import certificate5 from "../../assets/technical/certificate5.jpg";
-import certificate6 from "../../assets/technical/certificate6.jpg";
 import certificate7 from "../../assets/technical/certificate7.jpg";
 import certificate8 from "../../assets/technical/certificate8.jpg";
 import certificate9 from "../../assets/technical/certificate9.jpg";
@@ -20,50 +19,38 @@ import certificate10 from "../../assets/technical/certificate10.jpg";
 import certificate11 from "../../assets/technical/certificate11.jpg";
 import certificate12 from "../../assets/technical/certificate12.jpg";
 import certificate13 from "../../assets/technical/certificate13.jpg";
-import certificate14 from "../../assets/technical/certificate14.jpg";
-// import certificate15 from "../../assets/technical/certificate15.jpg";
 
 const data = [
   {
     certificate: certificate1,
-    name: "AI Practitioner",
+    name: "AI PractitionerAWS Certified Solutions Architect - Associate",
   },
   {
     certificate: certificate2,
-    name: "Introduction To AI",
+    name: "AI Analyze: Customer Reviews",
   },
-  {
+   {
     certificate: certificate3,
     name: "Document Model",
   },
-  {
+   {
     certificate: certificate4,
-    name: "AI Analyze: Customer Reviews",
+    name: "Cyber Security",
   },
   {
     certificate: certificate5,
-    name: "AI Foundation",
-  },
-  {
-    certificate: certificate6,
     name: "Database Fundamentals",
   },
   {
     certificate: certificate7,
     name: "Connecting to MongoDB in Node.js",
   },
-  {
-    certificate: certificate8,
-    name: "Cyber Security",
-  },
+ 
   {
     certificate: certificate9,
     name: "Power BI",
   },
-  {
-    certificate: certificate10,
-    name: "Genreative Ai Workshop",
-  },
+ 
   {
     certificate: certificate11,
     name: "Introduction to NLP",
