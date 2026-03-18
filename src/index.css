@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Rajdhani:wght@400;500;600;700&family=Orbitron:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Manrope:wght@300;400;500;600;700&display=swap');
 
 *{
     margin: 0;
@@ -11,12 +11,14 @@
 }
 
 :root {
-    --color-bg : #1f1f38;
-    --color-bg-variant : #2c2c6c;
-    --color-primary : #4db5ff;
-    --color-primary-variant : rgba(77,181,255,0.4);
-    --color-white : #fff;
-    --color-light : rgba(255,255,255,0.6);
+    --font-heading: 'Outfit', sans-serif;
+    --font-body: 'Plus Jakarta Sans', sans-serif;
+    --color-bg: #0f172a;
+    --color-bg-variant: #1e293b;
+    --color-primary: #38bdf8;
+    --color-primary-variant: rgba(56, 189, 248, 0.4);
+    --color-white: #f8fafc;
+    --color-light: rgba(248, 250, 252, 0.6);
 
     --transition : all 400ms ease;
 
@@ -37,46 +39,50 @@
     
 }
 body.neon-theme {
-  --color-bg : linear-gradient(135deg, #00f260, #0575e6);
-  --color-bg-variant : linear-gradient(135deg, #f7971e, #ffd200);
-  --color-primary : #ff512f;
-  --color-primary-variant : rgba(255, 81, 47, 0.4);
-  --color-white : #ffffff;
-  --color-light : rgba(255, 255, 255, 0.7);
-
-  /* buttons */
-  --btn-bg: transparent;
-  --btn-text: var(--color-white);
-  --btn-border: var(--color-white);
-  --btn-hover-bg: var(--color-primary);
-  --btn-hover-text: #fff;
-
-  --btn-primary-bg: var(--color-primary);
-  --btn-primary-text: #fff;
-  --btn-primary-border: var(--color-primary);
-  --btn-primary-hover-bg: var(--color-bg-variant);
-  --btn-primary-hover-text: #000;
-}
-body.light-theme {
-  --color-bg : linear-gradient(135deg, #fdfbfb, #ebedee);
-  --color-bg-variant : linear-gradient(135deg, #e0f7fa, #e1f5fe);
-  --color-primary : #ff7eb9;
-  --color-primary-variant : rgba(255, 126, 185, 0.4);
-  --color-white : #1f1f1f;
-  --color-light : rgba(0, 0, 0, 0.6);
+  --font-heading: 'Orbitron', sans-serif;
+  --font-body: 'Rajdhani', sans-serif;
+  --color-bg: #050510;
+  --color-bg-variant: #121226;
+  --color-primary: #00ffcc;
+  --color-primary-variant: rgba(0, 255, 204, 0.2);
+  --color-white: #ffffff;
+  --color-light: rgba(255, 255, 255, 0.7);
 
   /* buttons */
   --btn-bg: transparent;
   --btn-text: var(--color-primary);
   --btn-border: var(--color-primary);
   --btn-hover-bg: var(--color-primary);
-  --btn-hover-text: #fff;
+  --btn-hover-text: var(--color-bg);
 
   --btn-primary-bg: var(--color-primary);
-  --btn-primary-text: #fff;
+  --btn-primary-text: var(--color-bg);
   --btn-primary-border: var(--color-primary);
-  --btn-primary-hover-bg: var(--color-bg-variant);
-  --btn-primary-hover-text: var(--color-white);
+  --btn-primary-hover-bg: transparent;
+  --btn-primary-hover-text: var(--color-primary);
+}
+body.light-theme {
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Manrope', sans-serif;
+  --color-bg: #f8fafc;
+  --color-bg-variant: #ffffff;
+  --color-primary: #6366f1;
+  --color-primary-variant: rgba(99, 102, 241, 0.3);
+  --color-white: #0f172a;
+  --color-light: rgba(15, 23, 42, 0.6);
+
+  /* buttons */
+  --btn-bg: transparent;
+  --btn-text: var(--color-primary);
+  --btn-border: var(--color-primary);
+  --btn-hover-bg: var(--color-primary);
+  --btn-hover-text: #ffffff;
+
+  --btn-primary-bg: var(--color-primary);
+  --btn-primary-text: #ffffff;
+  --btn-primary-border: var(--color-primary);
+  --btn-primary-hover-bg: transparent;
+  --btn-primary-hover-text: var(--color-primary);
 }
 html{
     scroll-behavior: smooth;
@@ -85,7 +91,7 @@ html{
     display: none;
 }
 body{
-   font-family: "Open Sans", sans-serif;
+   font-family: var(--font-body);
    background: var(--color-bg);
    color: var(--color-white);
    line-height: 1.7;
@@ -103,8 +109,10 @@ h1,
 h2,
 h3,
 h4,
-h5{
-    font-weight: 500;
+h5,
+h6 {
+    font-family: var(--font-heading);
+    font-weight: 600;
 }
 h1{
     font-size: 2.6rem;
@@ -139,6 +147,8 @@ a:hover{
   border-radius: 0.4rem;
   cursor: pointer;
   transition: var(--transition);
+  font-family: var(--font-heading);
+  font-weight: 500;
 
   /* theme-driven */
   color: var(--btn-text);
