@@ -21,8 +21,6 @@ It’s designed to leave a lasting impression. ✨
 Frontend 💻
 ⚛️ React.js
 
-🎥 Three.js
-
 💫 Framer Motion
 
 🎨 Tailwind CSS
