@@ -2,7 +2,7 @@
 <!-- Banner style heading --> <p align="center"> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/Three.js-black?style=for-the-badge&logo=three.js&logoColor=white" /> <img src="https://img.shields.io/badge/Framer_Motion-pink?style=for-the-badge&logo=framer&logoColor=white" /> </p>
 🖥️ About the Portfolio
 Welcome to my personal 3D animated portfolio website built using
-React ⚛️, Three.js 🌐, and Framer Motion 🎞️.
+React ⚛️, Express.js 🌐, and Node.js 🎞️.
 
 This portfolio showcases:
 
