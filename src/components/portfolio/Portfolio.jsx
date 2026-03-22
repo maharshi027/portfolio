@@ -1,10 +1,8 @@
 import './portfolio.css'
 import IMG1 from '../../assets/project1.png'
 import IMG2 from '../../assets/project2.png'
-import IMG3 from '../../assets/project3.webp'
-import IMG4 from '../../assets/project4.jpeg'
-import IMG5 from '../../assets/project5.jpg'
-import IMG6 from '../../assets/project6.jpeg'
+import IMG4 from '../../assets/poster.jpeg'
+
 const Portfolio = () => {
   return (
     <section id="portfolio">
@@ -31,46 +29,18 @@ const Portfolio = () => {
                 <a href="https://ai-ticket-system-delta.vercel.app" target='_blank' className='btn btn-primary'>Live Demo</a>
               </div>
         </article>
-        <article className='portfolio_items'>
-            <div className="portfolio_item-image">
-             <img src={IMG3} alt="" />
-            </div>  
-              <h3>Youtube Backend</h3>
-              <div className="portfolio_items-cta">
-                <a href="https://github.com/maharshi027/youtube-backend-027" className='btn'>Github</a>
-                <a href="/" target='_blank' className='btn btn-primary'>Live Demo</a>  
-              </div>
-        </article>
+        
         <article className='portfolio_items'>
             <div className="portfolio_item-image">
               <img src= {IMG4} alt="" />
             </div>  
-              <h3>MBBS Abroad Study</h3>
+              <h3>Coaching class</h3>
               <div className="portfolio_items-cta">
-                <a href="https://github.com/maharshi027/mbbs-abroad-landing-page" className='btn'>Github</a>
-                <a href="https://mbbs-abroad-landing-page.vercel.app/" target='_blank' className='btn btn-primary'>Live Demo</a>
+                <a href="https://github.com/maharshi027/coaching-class" className='btn'>Github</a>
+                <a href="https://dinesh-classes.vercel.app/" target='_blank' className='btn btn-primary'>Live Demo</a>
               </div>
         </article>
-        <article className='portfolio_items'>
-            <div className="portfolio_item-image">
-              <img src={IMG5} alt="" />
-            </div>  
-              <h3>Assignment Demo</h3>
-              <div className="portfolio_items-cta">
-                <a href="https://github.com/maharshi027/IRed-assignment" className='btn'>Github</a>
-                <a href="https://ired-assignment.vercel.app/" target='_blank' className='btn btn-primary'>Live Demo</a>
-              </div>
-        </article>
-        <article className='portfolio_items'>
-            <div className="portfolio_item-image">
-              <img src={IMG6} alt="" />
-              </div>  
-              <h3>Event Management</h3>
-              <div className="portfolio_items-cta">
-                <a href="https://github.com/maharshi027/Event-management-college-project" className='btn'>Github</a>
-                <a href="https://event-management-ten-sooty.vercel.app/" target='_blank' className='btn btn-primary'>Live Demo</a>
-              </div>
-        </article>
+       
       </div>
     </section>
   )
