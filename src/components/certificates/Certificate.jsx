@@ -1,10 +1,9 @@
 import "./certificate.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation, Autoplay } from "swiper/modules";
+import { Pagination, Autoplay } from "swiper/modules";
 
 import "swiper/css";
-import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 import certificate1 from "../../assets/technical/certificate1.jpg";
@@ -26,11 +25,11 @@ const data = [
     certificate: certificate2,
     name: "AI Analyze: Customer Reviews",
   },
-   {
+  {
     certificate: certificate3,
     name: "Document Model",
   },
-   {
+  {
     certificate: certificate4,
     name: "Cyber Security",
   },
@@ -46,16 +45,16 @@ const data = [
     certificate: certificate7,
     name: "Connecting to MongoDB in Node.js",
   },
- 
+
   {
     certificate: certificate8,
     name: "Power BI Data Analyst",
   },
- 
+
   {
     certificate: certificate9,
     name: "Introduction to Modern AI",
-  }
+  },
 ];
 
 function Certificate() {
@@ -66,11 +65,10 @@ function Certificate() {
 
       <Swiper
         className="container certificate_container"
-        modules={[Pagination, Navigation, Autoplay]}
+        modules={[Pagination, Autoplay]}
         spaceBetween={40}
         slidesPerView={1}
         pagination={{ clickable: true }}
-        navigation={true}
         autoplay={{ delay: 3000, disableOnInteraction: false }}
       >
         {data.map(({ certificate, name }, index) => {
