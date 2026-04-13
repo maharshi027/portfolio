@@ -23,21 +23,21 @@ function Experience() {
                 <article className='experience_details'>
                     <FaHtml5 className="experience_details-icon"/>
                     <div>
-                        <h4>HTML</h4>
+                        <h4>HTML5</h4>
                         <small className='text-light'>Experienced</small>
                     </div>
                 </article>
                 <article className='experience_details'>
                     <FaCss3Alt className="experience_details-icon"/>
                     <div>
-                        <h4>CSS</h4>
+                        <h4>CSS3</h4>
                         <small className='text-light'>Intermediate</small>
                     </div>
                 </article>
                 <article className='experience_details'>
                     <FaJsSquare className="experience_details-icon"/>
                     <div>
-                        <h4>JAVAscript</h4>
+                        <h4>Javascript</h4>
                         <small className='text-light'>Experienced</small>
                     </div>
                 </article>
@@ -51,7 +51,7 @@ function Experience() {
                 <article className='experience_details'>
                     <RiTailwindCssFill className="experience_details-icon"/>
                     <div>
-                        <h4>Tailwind</h4>
+                        <h4>Tailwind CSS</h4>
                         <small className='text-light'>Experienced</small>
                     </div>
                 </article>
