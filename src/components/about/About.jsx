@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/about_img.png'
+import ME from '../../assets/me.jpeg'
 import { GiGiftOfKnowledge } from "react-icons/gi";
 import { GoProjectSymlink } from "react-icons/go";
 import { LiaAwardSolid } from "react-icons/lia";

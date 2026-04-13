@@ -10,7 +10,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { FaPython } from "react-icons/fa";
-import { SiExpress } from "react-icons/si";
+import { SiExpress, SiPostgresql, SiRedis, SiRender, SiVercel } from "react-icons/si";
 function Experience() {
   return (
    <section id="experience">
@@ -62,6 +62,13 @@ function Experience() {
                         <small className='text-light'>Intermediate</small>  
                     </div>
                 </article>
+                <article className='experience_details'>
+                    <SiVercel className="experience_details-icon"/>
+                    <div>
+                        <h4>Vercel</h4>
+                        <small className='text-light'>Experienced</small>
+                    </div>
+                </article>
             </div>
            
         </div>
@@ -75,7 +82,7 @@ function Experience() {
                     <FaNodeJs className="experience_details-icon"/>
                     <div>
                         <h4>Node JS</h4>
-                        <small className='text-light'>Beginner</small>     
+                        <small className='text-light'>Intermediate</small>     
                     </div>
                 </article>
                 <article className='experience_details'>
@@ -86,10 +93,17 @@ function Experience() {
                     </div>
                 </article>
                 <article className='experience_details'>
-                    <GrMysql className="experience_details-icon"/>
+                    <SiPostgresql className="experience_details-icon"/>
                     <div>
-                        <h4>MySQL</h4>
-                        <small className='text-light'>Experienced</small>
+                        <h4>PostgreSQL</h4>
+                        <small className='text-light'>Intermediate</small>
+                    </div>
+                </article>
+                <article className='experience_details'>
+                    <SiRedis className="experience_details-icon"/>
+                    <div>
+                        <h4>Redis</h4>
+                        <small className='text-light'>Beginner</small>
                     </div>
                 </article>
                 <article className='experience_details'>
@@ -103,6 +117,14 @@ function Experience() {
                     <SiExpress className="experience_details-icon"/>
                     <div>
                         <h4>Express js</h4>
+                        <small className='text-light'>Intermediate</small>
+                    </div>
+                </article>
+
+                <article className='experience_details'>
+                    <SiRender className="experience_details-icon"/>
+                    <div>
+                        <h4>Render</h4>
                         <small className='text-light'>Intermediate</small>
                     </div>
                 </article>
