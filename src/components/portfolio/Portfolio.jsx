@@ -25,7 +25,7 @@ const Portfolio = () => {
             </div>
               <h3>stundent Management</h3>
               <div className="portfolio_items-cta">
-                <a href="https://github.com/maharshi027/coaching-class" className='btn'>Github</a>
+                <a href="https://github.com/maharshi027/institute-management" className='btn'>Github</a>
                 <a href="https://dinesh-classes.vercel.app/" target='_blank' className='btn btn-primary'>Live Demo</a>
               </div>
         </article>
