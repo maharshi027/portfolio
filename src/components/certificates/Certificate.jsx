@@ -15,11 +15,15 @@ import certificate6 from "../../assets/technical/certificate6.jpg";
 import certificate7 from "../../assets/technical/certificate7.jpg";
 import certificate8 from "../../assets/technical/certificate8.jpg";
 import certificate9 from "../../assets/technical/certificate9.jpg";
-
+import certificate10 from "../../assets/technical/NetworkingBasics.jpg";
 const data = [
   {
     certificate: certificate1,
     name: "AI PractitionerAWS Certified Solutions Architect - Associate",
+  },
+  {
+    certificate: certificate10,
+    name: "Networking Basics - CISCO",
   },
   {
     certificate: certificate2,
