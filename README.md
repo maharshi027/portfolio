@@ -1,15 +1,15 @@
 <div align="center">
 
-# 🚀 Harshit Kushwaha's Creative Portfolio
+# 🚀 Harshit Kushwaha - Full Stack Developer
 
-### Blending **Design Excellence** with **Advanced Development**
+### **Building Scalable Web Applications with Modern Technologies**
 
 <p>
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Framer%20Motion-0055FF?style=flat-square&logo=framer&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" />
 </p>
 
 </div>
@@ -18,67 +18,109 @@
 
 ## 📌 About
 
-A **full-stack developer & UI/UX enthusiast** specializing in creating immersive 3D interactive experiences. This portfolio demonstrates expertise in building modern web applications with cutting-edge animations, responsive design, and seamless user interactions.
+A **Full Stack Developer** specializing in building modern web applications with the MERN stack and relational databases. Experienced in developing scalable backend services, responsive frontend interfaces, and integrating complex databases. Currently pursuing B.Tech in Computer Science (AI Specialization).
 
-**Currently:** B.Tech in Computer Science (AI Specialization) | 2023-2027  
-**Passion:** Building future-forward web experiences that captivate and engage
+**Currently:** B.Tech in Computer Science (AI) | 2023-2027  
+**Focus:** Full Stack Development • Backend Services • Database Design
 
 ---
 
 ## 🎯 Core Competencies
 
+### **Backend Development**
+
+- 🚀 **Node.js & Express.js** - Server-side development & REST APIs
+- 🗄️ **MongoDB** - NoSQL database design & optimization
+- 🐘 **PostgreSQL & SQL** - Relational database design & queries
+- 🔐 **JWT Authentication** - Secure authentication mechanisms
+- 📡 **RESTful API Design** - API architecture & best practices
+
 ### **Frontend Development**
 
-- ⚛️ **React.js** - Building dynamic, component-driven UIs
-- 🎬 **Framer Motion** - Advanced animation & motion design
-- 🎨 **Tailwind CSS** - Utility-first responsive styling
-- 🌐 **Three.js** - 3D graphics & WebGL rendering
+- ⚛️ **React.js** - Dynamic, component-driven user interfaces
+- 🎨 **Tailwind CSS** - Responsive & utility-first styling
 - 📍 **React Router** - Client-side routing & navigation
+- 🔄 **Redux** - State management
+- 📝 **React Hook Form** - Form validation & management
 
-### **Performance & UX**
+### **Full Stack Integration**
 
-- ✨ Micro-interactions & smooth transitions
-- 📱 Mobile-first responsive design
-- ⚡ Optimized loading & rendering
-- 🎯 Accessibility standards compliance
-
-### **Design & Creative**
-
-- 🖌️ Custom 3D model integration
-- 🎨 Futuristic UI/UX design patterns
-- 📐 Interactive visualization components
-- 🎭 Motion design & animation principles
+- 🔗 Frontend-Backend integration
+- 📊 Data persistence & management
+- ⚡ Performance optimization
+- 🧪 Testing & debugging
 
 ---
 
-## ✨ Signature Features
+## ✨ Key Skills
 
-| Feature                       | Description                                                |
-| ----------------------------- | ---------------------------------------------------------- |
-| 🔥 **3D Interactive Home**    | Engaging 3D animations that respond to user interactions   |
-| 🌈 **Modern Visual Identity** | Contemporary color palette with futuristic design language |
-| 🚀 **Dynamic Skill Showcase** | Animated 3D skill icons with smooth hover effects          |
-| 💫 **Smooth Transitions**     | Seamless page transitions & micro-interactions             |
-| 📱 **Fully Responsive**       | Optimized experience across all devices                    |
-| ⚙️ **Performance Optimized**  | Fast load times with lazy loading & code splitting         |
+| Category              | Technologies                                   |
+| --------------------- | ---------------------------------------------- |
+| **Languages**         | JavaScript, Python, C, C++                     |
+| **Frontend**          | React, Tailwind CSS, HTML5, CSS3               |
+| **Backend**           | Node.js, Express.js, REST APIs                 |
+| **Databases**         | MongoDB, PostgreSQL, SQL, MySQL                |
+| **Tools & Platforms** | Vite, Git, Netlify, Vercel, Render             |
+| **ML/AI**             | TensorFlow, Keras, Scikit-Learn, NumPy, Pandas |
 
 ---
 
 ## 🛠️ Tech Stack
 
-```
-Frontend:
-├── React.js (UI Framework)
-├── Framer Motion (Animation)
-├── Three.js (3D Graphics)
-├── Tailwind CSS (Styling)
-└── JavaScript ES6+ (Language)
+<details>
+<summary><b>📦 Frontend Technologies</b></summary>
 
-Tooling:
-├── Vite (Build tool)
-├── React Router (Navigation)
-└── Custom 3D Models & SVG Assets
-```
+- ⚛️ React.js & React Router
+- 🎨 Tailwind CSS
+- 🔄 Redux State Management
+- 📝 React Hook Form
+- 📡 Socket.io (Real-time features)
+- 🎭 CSS3 Animations
+
+</details>
+
+<details>
+<summary><b>⚙️ Backend Technologies</b></summary>
+
+- 🚀 Node.js
+- 🔧 Express.js
+- 🔐 JWT Authentication
+- 📡 RESTful API Architecture
+- 🧩 Middleware & Routing
+- 🔗 Database Integration
+
+</details>
+
+<details>
+<summary><b>🗄️ Database Technologies</b></summary>
+
+- 🍃 MongoDB - NoSQL flexibility
+- 🐘 PostgreSQL - Relational integrity
+- 🗄️ MySQL - Enterprise databases
+- 💾 SQL - Advanced queries & optimization
+
+</details>
+
+<details>
+<summary><b>🤖 Machine Learning & AI</b></summary>
+
+- 🧠 TensorFlow & Keras
+- 📊 Scikit-Learn
+- 📈 NumPy & Pandas
+- 📉 Matplotlib - Data visualization
+
+</details>
+
+<details>
+<summary><b>🛠️ Tools & DevOps</b></summary>
+
+- 📦 Vite - Build tool
+- 🔄 Git & GitHub
+- 🌐 Vercel, Netlify, Render - Deployment
+- 📝 Package Management (npm, yarn)
+- 🔍 DevTools & Debugging
+
+</details>
 
 ---
 
@@ -88,6 +130,7 @@ Tooling:
 
 - Node.js (v16+)
 - npm or yarn
+- Git
 
 ### Installation
 
@@ -117,9 +160,7 @@ portfolio/
 │   └── assets/
 ├── src/
 │   ├── components/          # Reusable React components
-│   ├── pages/               # Page components
 │   ├── assets/              # Images, icons, fonts
-│   ├── models/              # 3D models
 │   ├── App.jsx              # Main app component
 │   ├── main.jsx             # Entry point
 │   └── index.css            # Global styles
@@ -131,29 +172,40 @@ portfolio/
 
 ## 🎓 What I've Built
 
-This portfolio represents a **fusion of design thinking and technical expertise**:
+This portfolio demonstrates expertise in:
 
-- **Interactive 3D Environments** using Three.js WebGL rendering
-- **Fluid Motion Design** with Framer Motion orchestration
-- **Responsive Layouts** that adapt beautifully to any screen size
-- **Performance-Optimized Code** with lazy loading & efficient rendering
+- **Full Stack Web Applications** using MERN stack
+- **RESTful API Development** with Express.js
+- **Database Design** with MongoDB & PostgreSQL
+- **Responsive Frontend** with React & Tailwind CSS
+- **Real-time Features** with Socket.io
+- **Secure Authentication** with JWT tokens
 
 ---
 
 ## 🔗 Let's Connect
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/harshit-23a6912a8/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
   <a href="https://github.com/maharshi027" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://www.linkedin.com/in/harshit-23a6912a8/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://www.instagram.com/maharshi.027" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
   <a href="https://www.youtube.com/@maharshi.027" target="_blank">
-    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
+  </a>
+  <a href="https://leetcode.com/maharshi027" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+  </a>
+  <a href="https://www.geeksforgeeks.org/user/maharshi027" target="_blank">
+    <img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks" />
+  </a>
+  <a href="mailto:harshit.2327cseai120@kiet.edu" target="_blank">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
 
@@ -161,16 +213,17 @@ This portfolio represents a **fusion of design thinking and technical expertise*
 
 ## 💡 Highlights
 
-- **3D Web Experiences** - Pushing the boundaries of web-based 3D interaction
-- **Animation Craftsmanship** - Every motion has purpose and enhances UX
-- **Performance First** - Built with optimization in mind from the ground up
-- **Responsive Design** - Pixel-perfect across all breakpoints
+- **MERN Stack Expertise** - Complete full-stack development
+- **Database Proficiency** - Both NoSQL and relational databases
+- **API Development** - Building robust REST APIs
+- **Responsive Design** - Works seamlessly across all devices
+- **Problem Solving** - Strong algorithmic & coding skills
 
 ---
 
 ## ⭐ Support
 
-If you find this portfolio inspiring or useful, please give it a star! Your support motivates me to continue building amazing experiences. 🙌
+If you find this portfolio inspiring or useful, please give it a star! Your support motivates me to continue building amazing applications. 🙌
 
 ---
 
@@ -179,25 +232,9 @@ If you find this portfolio inspiring or useful, please give it a star! Your supp
 ### 👨‍💻 Made with ❤️ by Harshit Kushwaha
 
 **B.Tech CSE (AI) | 2023-2027**  
-_Developer • Designer • 3D UI Innovator_
+_Full Stack Developer • Problem Solver • Tech Enthusiast_
 
 </div>
-<div align="center">
-
-# 🚀 Harshit Kushwaha's Creative Portfolio
-
-### Blending **Design Excellence** with **Advanced Development**
-
-<p>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Framer%20Motion-0055FF?style=flat-square&logo=framer&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white" />
-</p>
-
-</div>
-🖥️ About the Portfolio
 Welcome to my personal 3D animated portfolio website built using
 React ⚛️, Express.js 🌐, and Node.js 🎞️.
 
