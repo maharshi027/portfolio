@@ -1,5 +1,5 @@
 
-import CV from '../../assets/technical/Harshit_Resume.pdf'
+import CV from '../../assets/technical/Resume.pdf'
 
 function Cta() {
   return (
