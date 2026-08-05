@@ -1,13 +1,16 @@
-
-import CV from '../../assets/technical/Resume.pdf'
+import CV from "../../assets/technical/Self_Resume.pdf";
 
 function Cta() {
   return (
-    <div className='cta'>
-      <a href={CV} download className='btn'>Download Resume</a>
-      <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+    <div className="cta">
+      <a href={CV} download className="btn">
+        Download Resume
+      </a>
+      <a href="#contact" className="btn btn-primary">
+        Let's Talk
+      </a>
     </div>
-  )
+  );
 }
 
-export default Cta
+export default Cta;
