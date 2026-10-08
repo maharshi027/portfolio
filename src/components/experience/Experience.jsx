@@ -1,139 +1,145 @@
-import React from 'react'
-import './experience.css'
-import { FaBootstrap } from "react-icons/fa";
-import { RiTailwindCssFill } from "react-icons/ri";
-import { FaJsSquare } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa6";
-import { FaHtml5 } from "react-icons/fa";
-import { FaReact } from "react-icons/fa";
-import { FaNodeJs } from "react-icons/fa";
-import { SiMongodb } from "react-icons/si";
-import { GrMysql } from "react-icons/gr";
-import { FaPython } from "react-icons/fa";
-import { SiExpress, SiPostgresql, SiRedis, SiRender, SiVercel } from "react-icons/si";
+import React from 'react';
+import './experience.css';
+import { FaBriefcase, FaCalendarAlt, FaCheckCircle, FaExternalLinkAlt } from 'react-icons/fa';
+import { BsArrowRight } from 'react-icons/bs';
+
+const EXPERIENCES = [
+  {
+    role: 'Project Management Intern',
+    company: 'ASpireLyfX',
+    period: 'Oct 2026 – Present',
+    type: 'Internship',
+    badge: 'Current',
+    description:
+      'Leading agile task coordination and cross-functional team delivery across a structured development cycle.',
+    metrics: [
+      { label: 'Program Cycle', value: '45 Days' },
+      { label: 'Phases Monitored', value: '5 Stages' },
+      { label: 'Delivery Pace', value: 'On-Schedule' }
+    ],
+    bullets: [
+      'Coordinated end-to-end sprint planning, task allocation, milestone tracking, and progress monitoring across 5 structured development phases.',
+      'Maintained centralized project trackers, executive status reports, and technical documentation with cross-functional teams to ensure timely release.'
+    ],
+    skills: ['Agile / Scrum', 'Milestone Tracking', 'Jira / Project Trackers', 'Cross-Functional Leadership']
+  },
+  {
+    role: 'Full-Stack Developer Intern',
+    company: 'Dream Girl Foundation',
+    period: 'May 2026 – Jul 2026',
+    type: 'Internship',
+    badge: 'Completed',
+    description:
+      'Engineered an end-to-end NGO web platform with automated donation processing and custom CMS administration.',
+    metrics: [
+      { label: 'Donor Transactions', value: '500+' },
+      { label: 'Efficiency Gain', value: '+40%' },
+      { label: 'Manual Queries Cut', value: '65%' }
+    ],
+    bullets: [
+      'Built a high-availability NGO platform from scratch and integrated secure payment gateways, handling 500+ donor transactions seamlessly.',
+      'Improved donation processing efficiency by 40% via automated REST API pipelines and relational schema indexing.',
+      'Engineered a custom CMS to manage donor records, payment history, and campaign metrics, eliminating manual spreadsheets.'
+    ],
+    skills: ['React.js', 'Node.js', 'Express.js', 'Payment Gateways', 'Relational Indexing', 'CMS Architecture']
+  },
+  {
+    role: 'Web Development Intern',
+    company: 'InternPe',
+    period: 'Dec 2025 – Jan 2026',
+    type: 'Internship',
+    badge: 'Verified',
+    description:
+      'Developed responsive full-stack modules and UI components with strict standard compliance and code reviews.',
+    metrics: [
+      { label: 'Certificate ID', value: 'IPI#68392' },
+      { label: 'Modules Shipped', value: 'Production' },
+      { label: 'Code Quality', value: 'Approved' }
+    ],
+    bullets: [
+      'Developed responsive front-end layouts and integrated backend REST endpoints with optimized state management.',
+      'Completed rigorous internship milestones with high distinction and official AICTE/MSME recognized certification.'
+    ],
+    skills: ['JavaScript ES6+', 'HTML5/CSS3', 'REST APIs', 'Git / GitHub']
+  }
+];
+
 function Experience() {
   return (
-   <section id="experience">
-    <h5>Skills</h5>
-    <h2>My Experience</h2>
-    <div className="container experience_container">
-        <div className="experience_frontend">
-            <h3>Frontend Development</h3>
-            <div className="experience_content">
-                <article className='experience_details'>
-                    <FaHtml5 className="experience_details-icon"/>
-                    <div>
-                        <h4>HTML5</h4>
-                        <small className='text-light'>Experienced</small>
+    <section id="experience">
+      <div className="section_header">
+        <span className="section_tag">03 // CAREER JOURNEY</span>
+        <h2 className="section_title">
+          Work <span>Experience</span>
+        </h2>
+        <p className="section_subtitle">
+          Hands-on software development and engineering internships delivering real-world value.
+        </p>
+      </div>
+
+      <div className="container experience_container">
+        <div className="experience_timeline">
+          {EXPERIENCES.map((exp, index) => (
+            <div key={index} className="experience_card glass-card">
+              {/* Card Header */}
+              <div className="exp_header_row">
+                <div className="exp_role_group">
+                  <div className="exp_icon_box">
+                    <FaBriefcase className="exp_briefcase_icon" />
+                  </div>
+                  <div>
+                    <h3 className="exp_role_title">{exp.role}</h3>
+                    <div className="exp_company_tag">
+                      <span className="exp_company_name">{exp.company}</span>
+                      <span className="exp_type_dot">•</span>
+                      <span className="exp_type_text">{exp.type}</span>
                     </div>
-                </article>
-                <article className='experience_details'>
-                    <FaCss3Alt className="experience_details-icon"/>
-                    <div>
-                        <h4>CSS3</h4>
-                        <small className='text-light'>Intermediate</small>
-                    </div>
-                </article>
-                <article className='experience_details'>
-                    <FaJsSquare className="experience_details-icon"/>
-                    <div>
-                        <h4>Javascript</h4>
-                        <small className='text-light'>Experienced</small>
-                    </div>
-                </article>
-                <article className='experience_details'>
-                    <FaBootstrap className="experience_details-icon"/>
-                    <div> 
-                        <h4>Bootstrap</h4>
-                        <small className='text-light'>Experienced</small>
-                    </div>
-                </article>
-                <article className='experience_details'>
-                    <RiTailwindCssFill className="experience_details-icon"/>
-                    <div>
-                        <h4>Tailwind CSS</h4>
-                        <small className='text-light'>Experienced</small>
-                    </div>
-                </article>
-                <article className='experience_details'>
-                    <FaReact className="experience_details-icon"/>
-                    <div>
-                        <h4>React js</h4>
-                        <small className='text-light'>Intermediate</small>  
-                    </div>
-                </article>
-                <article className='experience_details'>
-                    <SiVercel className="experience_details-icon"/>
-                    <div>
-                        <h4>Vercel</h4>
-                        <small className='text-light'>Experienced</small>
-                    </div>
-                </article>
+                  </div>
+                </div>
+
+                <div className="exp_time_badge">
+                  <FaCalendarAlt />
+                  <span>{exp.period}</span>
+                  <span className={`exp_badge_pill ${exp.badge.toLowerCase()}`}>{exp.badge}</span>
+                </div>
+              </div>
+
+              {/* Metrics Bar */}
+              <div className="exp_metrics_strip">
+                {exp.metrics.map((metric, mIndex) => (
+                  <div key={mIndex} className="exp_metric_item">
+                    <span className="metric_val">{metric.value}</span>
+                    <span className="metric_lbl">{metric.label}</span>
+                  </div>
+                ))}
+              </div>
+
+              <p className="exp_summary">{exp.description}</p>
+
+              {/* Key Deliverables */}
+              <div className="exp_bullets_list">
+                {exp.bullets.map((bullet, bIndex) => (
+                  <div key={bIndex} className="exp_bullet_item">
+                    <FaCheckCircle className="exp_check_bullet" />
+                    <span>{bullet}</span>
+                  </div>
+                ))}
+              </div>
+
+              {/* Skill Tags */}
+              <div className="exp_skills_row">
+                {exp.skills.map((skill, sIndex) => (
+                  <span key={sIndex} className="exp_skill_pill">
+                    {skill}
+                  </span>
+                ))}
+              </div>
             </div>
-           
+          ))}
         </div>
-
- {/* -------------------- End of frontend skills ----------------- */}
-
-        <div className="experience_backend">
-            <h3>Backend Development</h3>
-            <div className="experience_content">
-                <article className='experience_details'>
-                    <FaNodeJs className="experience_details-icon"/>
-                    <div>
-                        <h4>Node JS</h4>
-                        <small className='text-light'>Intermediate</small>     
-                    </div>
-                </article>
-                <article className='experience_details'>
-                    <SiMongodb className="experience_details-icon"/>
-                    <div>
-                        <h4>MongoDB</h4>
-                        <small className='text-light'>Experienced</small>
-                    </div>
-                </article>
-                <article className='experience_details'>
-                    <SiPostgresql className="experience_details-icon"/>
-                    <div>
-                        <h4>PostgreSQL</h4>
-                        <small className='text-light'>Intermediate</small>
-                    </div>
-                </article>
-                <article className='experience_details'>
-                    <SiRedis className="experience_details-icon"/>
-                    <div>
-                        <h4>Redis</h4>
-                        <small className='text-light'>Beginner</small>
-                    </div>
-                </article>
-                <article className='experience_details'>
-                    <FaPython className="experience_details-icon"/>
-                    <div>
-                        <h4>Rest APIs</h4>
-                        <small className='text-light'>Intermediate</small>
-                    </div>
-                </article>
-                <article className='experience_details'>
-                    <SiExpress className="experience_details-icon"/>
-                    <div>
-                        <h4>Express js</h4>
-                        <small className='text-light'>Intermediate</small>
-                    </div>
-                </article>
-
-                <article className='experience_details'>
-                    <SiRender className="experience_details-icon"/>
-                    <div>
-                        <h4>Render</h4>
-                        <small className='text-light'>Intermediate</small>
-                    </div>
-                </article>
-            </div>
-        </div>
-    </div>
-
-   </section>
-  )
+      </div>
+    </section>
+  );
 }
 
-export default Experience
+export default Experience;

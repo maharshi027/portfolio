@@ -1,29 +1,44 @@
 import React, { useState, useEffect } from 'react';
-import { CiBrightnessUp } from "react-icons/ci";
+import { FaMoon, FaSun, FaBolt } from 'react-icons/fa';
 import './theme.css';
 
+const THEMES = [
+  { id: 'dark-theme', label: 'Dark', icon: FaMoon },
+  { id: 'neon-theme', label: 'Neon', icon: FaBolt },
+  { id: 'light-theme', label: 'Light', icon: FaSun }
+];
+
 function Theme() {
-  const themes = ["dark-theme", "light-theme", "neon-theme"];
   const [theme, setTheme] = useState(() => {
-    return localStorage.getItem("theme") || "dark-theme";
+    return localStorage.getItem('theme') || 'dark-theme';
   });
 
   useEffect(() => {
     document.body.className = theme;
-    localStorage.setItem("theme", theme);
+    localStorage.setItem('theme', theme);
   }, [theme]);
 
-  const toggleTheme = () => {
-    setTheme(prev => {
-      const nextIndex = (themes.indexOf(prev) + 1) % themes.length;
-      return themes[nextIndex];
-    });
-  };
-
   return (
-    <button onClick={toggleTheme} className="btn theme-toggle-btn">
-      <CiBrightnessUp className='theme-icon' />
-    </button>
+    <div className="theme-switcher-wrapper">
+      <div className="theme-switcher-dock">
+        {THEMES.map((item) => {
+          const Icon = item.icon;
+          const isActive = theme === item.id;
+          return (
+            <button
+              key={item.id}
+              onClick={() => setTheme(item.id)}
+              className={`theme-dock-btn ${isActive ? 'active' : ''}`}
+              title={`Switch to ${item.label} Theme`}
+              aria-label={`Switch to ${item.label} Theme`}
+            >
+              <Icon className="theme-dock-icon" />
+              <span className="theme-dock-label">{item.label}</span>
+            </button>
+          );
+        })}
+      </div>
+    </div>
   );
 }
 
