@@ -150,6 +150,24 @@ npm run dev
 
 Visit `http://localhost:5173` to view the portfolio locally.
 
+### Contact Form Email Setup
+
+The contact form uses EmailJS to send submissions to your inbox. Create a `.env.local` file in the project root and add:
+
+```env
+VITE_EMAILJS_SERVICE_ID=your_emailjs_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_emailjs_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_emailjs_public_key
+```
+
+Get these values from the EmailJS dashboard. In the EmailJS template, use these form variables:
+
+- `{{name}}` for the visitor's name
+- `{{email}}` for the visitor's email
+- `{{message}}` for the visitor's message
+
+Set the template's **To Email** to `harshkush15sep@gmail.com` and **Reply To** to `{{email}}`. This makes replies go directly to the person who submitted the form. Restart the Vite server after changing `.env.local`, and add the same variables to the environment settings of your hosting provider before deploying.
+
 ---
 
 ## 📁 Project Structure

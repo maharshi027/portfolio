@@ -7,6 +7,12 @@ import { MdEmail } from 'react-icons/md';
 import { FaWhatsapp, FaLinkedin, FaMapMarkerAlt, FaPaperPlane } from 'react-icons/fa';
 import { HiSparkles } from 'react-icons/hi2';
 
+const emailJsConfig = {
+  serviceId: import.meta.env.VITE_EMAILJS_SERVICE_ID,
+  templateId: import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+  publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+};
+
 function Contact() {
   const form = useRef();
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -14,15 +20,24 @@ function Contact() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    setIsSubmitting(true);
     setFeedback({ type: '', message: '' });
+
+    if (Object.values(emailJsConfig).some((value) => !value)) {
+      setFeedback({
+        type: 'error',
+        message: 'The contact form is not configured yet. Please email me directly instead.'
+      });
+      return;
+    }
+
+    setIsSubmitting(true);
 
     emailjs
       .sendForm(
-        'service_8475ynq',
-        'template_jrqx7ih',
+        emailJsConfig.serviceId,
+        emailJsConfig.templateId,
         form.current,
-        'TIbVRU3YdZTcq8PJ-'
+        emailJsConfig.publicKey
       )
       .then(() => {
         setIsSubmitting(false);
