@@ -22,7 +22,6 @@ import {
   SiMysql,
   SiTailwindcss,
   SiExpress,
-  SiVite,
   SiPostman,
   SiGooglecloud,
 
@@ -42,7 +41,6 @@ const SKILLS_DATA = [
 
   // Frontend
   { name: 'React.js', category: 'frontend', level: 'Advanced', icon: FaReact, color: '#61dafb' },
-  { name: 'Vite', category: 'frontend', level: 'Proficient', icon: SiVite, color: '#646cff' },
   { name: 'Tailwind CSS', category: 'frontend', level: 'Advanced', icon: SiTailwindcss, color: '#06b6d4' },
   { name: 'HTML5 & CSS3', category: 'frontend', level: 'Expert', icon: FaHtml5, color: '#e34f26' },
   { name: 'Bootstrap', category: 'frontend', level: 'Proficient', icon: FaBootstrap, color: '#7952b3' },
@@ -53,7 +51,6 @@ const SKILLS_DATA = [
   { name: 'Express.js', category: 'backend', level: 'Advanced', icon: SiExpress, color: '#f1f5f9' },
   { name: 'RESTful API Design', category: 'backend', level: 'Advanced', icon: SiPostman, color: '#ff6c37' },
   { name: 'Clerk & JWT Auth', category: 'backend', level: 'Proficient', icon: FaNodeJs, color: '#6366f1' },
-  { name: 'Row Locks & Concurrency', category: 'backend', level: 'Skilled', icon: SiPostgresql, color: '#38bdf8' },
 
   // Databases & Caching
   { name: 'PostgreSQL (Neon)', category: 'databases', level: 'Advanced', icon: SiPostgresql, color: '#336791' },
