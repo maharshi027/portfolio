@@ -1,15 +1,13 @@
 import React, { useState } from 'react';
 import './portfolio.css';
 
-// Project Images
 import FLASHSALE_IMG from '../../assets/flashsale_preview.jpg';
 import GENAXIS_IMG from '../../assets/project2.png';
-import RECIPE_IMG from '../../assets/project3.png';
-import INSTITUTE_IMG from '../../assets/student.jpg';
+
 
 // Icons
 import { FaGithub, FaExternalLinkAlt, FaLayerGroup } from 'react-icons/fa';
-import { HiSparkles, HiCheckCircle } from 'react-icons/hi2';
+import { HiCheckCircle } from 'react-icons/hi2';
 import { BiGitBranch } from 'react-icons/bi';
 
 const PROJECTS_DATA = [
@@ -31,7 +29,7 @@ const PROJECTS_DATA = [
       'Built a load simulator auditing inventory after N concurrent buyer bursts; containerized with Docker Compose.'
     ],
     techStack: ['Node.js', 'Express.js', 'PostgreSQL', 'Redis', 'Docker Compose', 'Jest', 'SuperTest'],
-    github: 'https://github.com/maharshi027/flash-sale-order-system',
+    github: 'https://github.com/maharshi027/flashsale',
     demo: null
   },
   {
@@ -55,48 +53,6 @@ const PROJECTS_DATA = [
     github: 'https://github.com/maharshi027/Gen-Axis',
     demo: 'https://gen-axiss.vercel.app/'
   },
-  {
-    id: 3,
-    title: 'AI Culinary Intelligence & Recommendation Engine',
-    subtitle: 'Smart Recipe Generator & Nutrition Planner',
-    category: 'ai',
-    categoryLabel: 'Gen AI & Full-Stack',
-    status: 'Live & Shipped',
-    badge: 'Gemini LLM',
-    period: 'May 2026 – Jun 2026',
-    image: RECIPE_IMG,
-    description:
-      'AI-powered recipe recommendation platform creating bespoke culinary instructions tailored to pantry ingredients, dietary restrictions, and dynamic serving scales.',
-    architectureBullets: [
-      'Enforced schema-validated JSON outputs from Google Gemini LLM to eliminate hallucinations and ensure accurate cook times.',
-      'Refined few-shot prompt templates across pantry constraints, calorie goals, and dietary exclusions.',
-      'Instant pantry ingredient tracking and interactive step-by-step cooking guide.'
-    ],
-    techStack: ['React.js', 'Google Gemini API', 'Tailwind CSS', 'Node.js', 'PostgreSQL'],
-    github: 'https://github.com/maharshi027/AI-Recipe-Generator',
-    demo: 'https://ai-recipe-kitchen.vercel.app/'
-  },
-  {
-    id: 4,
-    title: 'Enterprise Institute Management & Analytics System',
-    subtitle: 'Academic Workflow & Financial Tracking Platform',
-    category: 'web',
-    categoryLabel: 'Enterprise Full-Stack',
-    status: 'Live & Shipped',
-    badge: 'MERN Stack',
-    period: 'Nov 2025 – Jan 2026',
-    image: INSTITUTE_IMG,
-    description:
-      'Full-stack ERP solution streamlining student enrollment, attendance monitoring, curriculum progress, and fee transaction tracking.',
-    architectureBullets: [
-      'Real-time transaction tracking and receipt generation with strict cross-collection data consistency.',
-      'Role-based access control (RBAC) separating administrative powers, instructors, and student records.',
-      'Optimized MongoDB indexing resulting in sub-100ms analytics querying.'
-    ],
-    techStack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'REST APIs', 'Tailwind CSS'],
-    github: 'https://github.com/maharshi027/institute-management',
-    demo: 'https://dinesh-classes.vercel.app/'
-  }
 ];
 
 const CATEGORIES = [
