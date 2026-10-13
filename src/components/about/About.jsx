@@ -44,7 +44,7 @@ function About() {
               <FaGraduationCap className="about_feature_icon" />
               <h5>Academics</h5>
               <strong>7.96 CGPA (80%)</strong>
-              <small>KIET (AKTU) • 2023–27</small>
+              <small>B.Tech CSE (AI) • 2023–27</small>
             </div>
 
             <div className="about_feature_card glass-card">
