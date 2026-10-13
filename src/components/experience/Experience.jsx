@@ -21,7 +21,7 @@ const EXPERIENCES = [
       'Coordinated end-to-end sprint planning, task allocation, milestone tracking, and progress monitoring across 5 structured development phases.',
       'Maintained centralized project trackers, executive status reports, and technical documentation with cross-functional teams to ensure timely release.'
     ],
-    skills: ['Agile / Scrum', 'Milestone Tracking', 'Jira / Project Trackers', 'Cross-Functional Leadership']
+    skills: ['Team Leadership', 'Milestone Tracking', 'Project/task Trackers']
   },
   {
     role: 'Full-Stack Developer Intern',
@@ -43,25 +43,6 @@ const EXPERIENCES = [
     ],
     skills: ['React.js', 'Node.js', 'Express.js', 'Payment Gateways', 'Relational Indexing', 'CMS Architecture']
   },
-  {
-    role: 'Web Development Intern',
-    company: 'InternPe',
-    period: 'Dec 2025 – Jan 2026',
-    type: 'Internship',
-    badge: 'Verified',
-    description:
-      'Developed responsive full-stack modules and UI components with strict standard compliance and code reviews.',
-    metrics: [
-      { label: 'Certificate ID', value: 'IPI#68392' },
-      { label: 'Modules Shipped', value: 'Production' },
-      { label: 'Code Quality', value: 'Approved' }
-    ],
-    bullets: [
-      'Developed responsive front-end layouts and integrated backend REST endpoints with optimized state management.',
-      'Completed rigorous internship milestones with high distinction and official AICTE/MSME recognized certification.'
-    ],
-    skills: ['JavaScript ES6+', 'HTML5/CSS3', 'REST APIs', 'Git / GitHub']
-  }
 ];
 
 function Experience() {
