@@ -7,8 +7,8 @@ const EDUCATION_DATA = [
   {
     level: 'Bachelor of Technology',
     degree: 'B.Tech in CSE (Artificial Intelligence)',
-    institution: 'KIET Group of Institutions (AKTU)',
-    boardUniversity: 'Dr. A.P.J. Abdul Kalam Technical University (AKTU)',
+    institution: 'KIET Group of Institutions, Ghaziabad',
+    boardUniversity: 'Dr. A.P.J. Abdul Kalam Technical University, Lucknow',
     period: 'Sep 2023 – Jun 2027 (Expected)',
     status: 'Final Year / Current',
     scoreType: 'CGPA',
