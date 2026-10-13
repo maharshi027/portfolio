@@ -158,6 +158,7 @@ The contact form uses EmailJS to send submissions to your inbox. Create a `.env.
 VITE_EMAILJS_SERVICE_ID=your_emailjs_service_id
 VITE_EMAILJS_TEMPLATE_ID=your_emailjs_template_id
 VITE_EMAILJS_PUBLIC_KEY=your_emailjs_public_key
+VITE_EMAILJS_RECEIVER_EMAIL=your_inbox@example.com
 ```
 
 Get these values from the EmailJS dashboard. In the EmailJS template, use these form variables:
@@ -165,8 +166,24 @@ Get these values from the EmailJS dashboard. In the EmailJS template, use these 
 - `{{name}}` for the visitor's name
 - `{{email}}` for the visitor's email
 - `{{message}}` for the visitor's message
+- `{{to_email}}` for your inbox address
+- `{{reply_to}}` for the visitor's email address
 
-Set the template's **To Email** to `harshkush15sep@gmail.com` and **Reply To** to `{{email}}`. This makes replies go directly to the person who submitted the form. Restart the Vite server after changing `.env.local`, and add the same variables to the environment settings of your hosting provider before deploying.
+For the notification template, set **To Email** to `{{to_email}}` and **Reply To** to
+`{{reply_to}}`. Set `VITE_EMAILJS_RECEIVER_EMAIL` to your inbox (it defaults to
+`harshkush15sep@gmail.com` if omitted). The notification template must not use
+`{{email}}` in **To Email**, otherwise the message will only go to the visitor.
+
+If you have enabled an EmailJS auto-reply, keep it as a separate auto-reply
+template with **To Email** set to `{{email}}`. The notification template above
+is the one that delivers the visitor's message to you.
+
+To remove the `Sent via EmailJS` footer, open the template in the EmailJS
+dashboard and disable **Add EmailJS footer** (or remove the EmailJS footer
+block from the template editor). This footer is added by EmailJS on the
+server and cannot be removed from React code. Restart the Vite server after
+changing `.env.local`, and add the same variables to the environment settings
+of your hosting provider before deploying.
 
 ---
 

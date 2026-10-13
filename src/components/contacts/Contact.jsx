@@ -11,6 +11,7 @@ const emailJsConfig = {
   serviceId: import.meta.env.VITE_EMAILJS_SERVICE_ID,
   templateId: import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
   publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+  receiverEmail: import.meta.env.VITE_EMAILJS_RECEIVER_EMAIL || 'harshkush15sep@gmail.com',
 };
 
 function Contact() {
@@ -32,11 +33,17 @@ function Contact() {
 
     setIsSubmitting(true);
 
+    const formData = Object.fromEntries(new FormData(form.current));
+
     emailjs
-      .sendForm(
+      .send(
         emailJsConfig.serviceId,
         emailJsConfig.templateId,
-        form.current,
+        {
+          ...formData,
+          to_email: emailJsConfig.receiverEmail,
+          reply_to: formData.email,
+        },
         emailJsConfig.publicKey
       )
       .then(() => {
