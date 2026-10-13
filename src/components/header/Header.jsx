@@ -11,8 +11,7 @@ import { BsArrowDownShort } from 'react-icons/bs';
 const ROLES = [
   'Full-Stack Developer (MERN)',
   'AI tools Integration',
-  'Distributed Backend & RESTful APIs',
-  'Problem Solver • 150+ DSA Solved'
+  'Distributed Backend & RESTful APIs'
 ];
 
 function Header() {
@@ -65,7 +64,7 @@ function Header() {
             <span className="typewriter_cursor">|</span>
           </div>
           <p className="header_bio">
-            Final-year B.Tech CSE (AI) student graduating in June 2027, with strong DSA, OOP, OS, and DBMS fundamentals and hands-on experience building MERN applications, REST APIs, and AI-powered products. Solved 150+ DSA problems and completed a full-stack internship.
+            Final-year B.Tech CSE (AI) student graduating in June 2027, with strong OOP, OS, and DBMS fundamentals and hands-on experience building MERN applications, REST APIs, and AI-powered products.
           </p>
         </div>
 
@@ -103,34 +102,25 @@ function Header() {
             <SiGooglecloud className="chip_icon icon_ai" />
             <span>Gemini AI</span>
           </div>
-
-          {/* Experience highlight tag */}
-          <div className="hero_experience_tag">
-            <strong>2+</strong>
-            <span>Internships Done</span>
-          </div>
         </div>
 
         {/* Quick Stats Bar */}
         <div className="hero_stats_strip glass-card">
-          <div className="stat_box">
-            <span className="stat_number">7.96</span>
-            <span className="stat_label">B.Tech CGPA (80%)</span>
+          <div className="stat_rectangle">
+            <span className="stat_number">150+</span>
+            <span className="stat_label">DSA Problems Solved</span>
           </div>
-          <div className="stat_divider"></div>
-          <div className="stat_box">
-            <span className="stat_number">100+</span>
-            <span className="stat_label">DSA Challenges Solved</span>
-          </div>
-          <div className="stat_divider"></div>
-          <div className="stat_box">
-            <span className="stat_number">500+</span>
-            <span className="stat_label">Live Donor Txns Handled</span>
-          </div>
-          <div className="stat_divider"></div>
-          <div className="stat_box">
-            <span className="stat_number">4+</span>
+          <div className="stat_rectangle">
+            <span className="stat_number">5+</span>
             <span className="stat_label">Full-Stack AI Projects</span>
+          </div>
+          <div className="stat_rectangle">
+            <span className="stat_number">AWS</span>
+            <span className="stat_label">Solutions Architect Global Certificate</span>
+          </div>
+          <div className="stat_rectangle">
+            <span className="stat_number">2+</span>
+            <span className="stat_label">Internship Experiences</span>
           </div>
         </div>
 
