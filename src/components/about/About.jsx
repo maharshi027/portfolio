@@ -57,7 +57,7 @@ function About() {
             <div className="about_feature_card glass-card">
               <FaCode className="about_feature_icon" />
               <h5>DSA Solved</h5>
-              <strong>100+ Challenges</strong>
+              <strong>150+ Challenges</strong>
               <small>LeetCode & GeeksforGeeks</small>
             </div>
 
@@ -69,29 +69,33 @@ function About() {
             </div>
           </div>
 
-          {/* Quick Value Points (concise, scannable, NOT heavy blocks of words!) */}
+          {/* Key Achievements & Impact Highlights */}
           <div className="about_highlights_list glass-card">
             <div className="highlight_item">
               <BsCheckCircleFill className="check_icon" />
               <div>
-                <strong>Full-Stack Architecture:</strong>
-                <span> Hands-on in React.js, Node.js, Express, PostgreSQL, MongoDB, and Tailwind CSS.</span>
+                <strong>Solved 150+ DSA problems</strong> on LeetCode and GeeksforGeeks, strengthening algorithmic thinking and optimization skills.
               </div>
             </div>
 
             <div className="highlight_item">
               <BsCheckCircleFill className="check_icon" />
               <div>
-                <strong>High-Concurrency & Systems:</strong>
-                <span> Engineered transactional inventory systems with order-level row locks, Redis caching, and Docker.</span>
+                <strong>Contata Solutions Hackathon 2026 –</strong> Shortlisted for the final round and presented the solution at Contata’s Noida office. Designed and implemented a dependency-aware Kanban workflow using Directed Acyclic Graphs (DAGs) to model task dependencies and provide a distinct alternative to traditional Jira/Trello-style project boards. Result pending.
               </div>
             </div>
 
             <div className="highlight_item">
               <BsCheckCircleFill className="check_icon" />
               <div>
-                <strong>Generative AI & LLMs:</strong>
-                <span> Built multi-modal web platforms integrating Google Gemini API with schema-validated JSON outputs.</span>
+                <strong>Secured 5th rank in the district</strong> in Class 10 (U.P. Board); felicitated by Hon’ble CM Yogi Adityanath with a cash prize and tablet for academic excellence.
+              </div>
+            </div>
+
+            <div className="highlight_item">
+              <BsCheckCircleFill className="check_icon" />
+              <div>
+                <strong>Nation Building Case Study Competition 2026 –</strong> Solved a Preventive Healthcare problem statement across multiple rounds.
               </div>
             </div>
           </div>

@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import './header.css';
 import Cta from './Cta';
-import ME from '../../assets/about_me.png';
-import ME_PHOTO from '../../assets/me.jpeg';
+import ME from '../../assets/me.jpeg';
 import HeaderSocial from './HeaderSocial';
-import { FaReact, FaNodeJs } from 'react-icons/fa';
-import { SiPostgresql, SiGooglecloud } from 'react-icons/si';
+import { FaReact, FaNodeJs, FaAward, FaLaptopCode } from 'react-icons/fa';
+import { SiPostgresql, SiGooglecloud, SiAmazonwebservices } from 'react-icons/si';
+import { TbBrandLeetcode } from 'react-icons/tb';
 import { BsArrowDownShort } from 'react-icons/bs';
 
 const ROLES = [
   'Full-Stack Developer (MERN)',
-  'Gen AI & LLM Integration Specialist',
+  'AI-Integrated Web App Engineer',
   'Distributed Backend & API Engineer',
-  'Problem Solver • 100+ DSA Solved'
+  'Problem Solver • 150+ DSA Solved'
 ];
 
 function Header() {
@@ -111,26 +111,38 @@ function Header() {
           </div>
         </div>
 
-        {/* Quick Stats Bar */}
+        {/* Quick Stats Bar - 4 Stat Rectangles */}
         <div className="hero_stats_strip glass-card">
-          <div className="stat_box">
-            <span className="stat_number">7.96</span>
-            <span className="stat_label">B.Tech CGPA (80%)</span>
+          <div className="stat_box stat_rectangle">
+            <div className="stat_icon_badge icon_dsa">
+              <TbBrandLeetcode />
+            </div>
+            <span className="stat_number">150+</span>
+            <span className="stat_label">DSA Problems Solved</span>
           </div>
-          <div className="stat_divider"></div>
-          <div className="stat_box">
-            <span className="stat_number">100+</span>
-            <span className="stat_label">DSA Challenges Solved</span>
+
+          <div className="stat_box stat_rectangle">
+            <div className="stat_icon_badge icon_ai">
+              <FaLaptopCode />
+            </div>
+            <span className="stat_number">5+</span>
+            <span className="stat_label">Full-Stack Projects with AI Integrated</span>
           </div>
-          <div className="stat_divider"></div>
-          <div className="stat_box">
-            <span className="stat_number">500+</span>
-            <span className="stat_label">Live Donor Txns Handled</span>
+
+          <div className="stat_box stat_rectangle">
+            <div className="stat_icon_badge icon_aws">
+              <SiAmazonwebservices />
+            </div>
+            <span className="stat_number">AWS SAA</span>
+            <span className="stat_label">Solutions Architect Associate Global Certificate</span>
           </div>
-          <div className="stat_divider"></div>
-          <div className="stat_box">
-            <span className="stat_number">4+</span>
-            <span className="stat_label">Full-Stack AI Projects</span>
+
+          <div className="stat_box stat_rectangle">
+            <div className="stat_icon_badge icon_ssb">
+              <FaAward />
+            </div>
+            <span className="stat_number">5+ Times</span>
+            <span className="stat_label">Qualified for SSB Merit</span>
           </div>
         </div>
 

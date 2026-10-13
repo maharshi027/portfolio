@@ -12,8 +12,7 @@ const EDUCATION_DATA = [
     period: 'Sep 2023 – Jun 2027 (Expected)',
     status: 'Final Year / Current',
     scoreType: 'CGPA',
-    score: '7.96 / 10',
-    percentage: '80%',
+    percentage: '7.96/10',
     badgeColor: '#10b981',
     icon: FaUniversity,
     description:
@@ -28,12 +27,11 @@ const EDUCATION_DATA = [
   {
     level: 'Class XII (Senior Secondary)',
     degree: 'Intermediate (12th Grade) - Science / PCM',
-    institution: 'SSN Inter College, Mahoba',
+    institution: 'Shishu Shiksha Niketan Inter College, Mahoba',
     boardUniversity: 'Uttar Pradesh State Board (U.P. Board)',
     period: 'Completed: Jul 2021',
-    status: 'Graduated',
+    status: 'Senior Secondary',
     scoreType: 'Percentage',
-    score: '85%',
     percentage: '85%',
     badgeColor: '#38bdf8',
     icon: FaSchool,
@@ -48,12 +46,11 @@ const EDUCATION_DATA = [
   {
     level: 'Class X (Secondary School)',
     degree: 'High School (10th Grade)',
-    institution: 'SSN Inter College, Mahoba',
+    institution: 'Shishu Shiksha Niketan Inter College, Mahoba',
     boardUniversity: 'Uttar Pradesh State Board (U.P. Board)',
     period: 'Completed: Apr 2019',
-    status: 'Graduated',
+    status: 'Higher Secondary',
     scoreType: 'Percentage',
-    score: '90%',
     percentage: '90%',
     badgeColor: '#a855f7',
     icon: FaAward,
@@ -100,8 +97,7 @@ function Education() {
 
                   <div className="education_score_badge">
                     <span className="score_title">{item.scoreType}</span>
-                    <span className="score_value">{item.score}</span>
-                    <span className="score_sub">({item.percentage})</span>
+                    <span className="score_value">{item.percentage}</span>
                   </div>
                 </div>
 
