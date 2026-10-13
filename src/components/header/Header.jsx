@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import './header.css';
 import Cta from './Cta';
-import ME from '../../assets/me.jpeg';
+import ME from '../../assets/about_me.png';
+import ME_PHOTO from '../../assets/me.jpeg';
 import HeaderSocial from './HeaderSocial';
-import { FaReact, FaNodeJs, FaAward, FaLaptopCode } from 'react-icons/fa';
-import { SiPostgresql, SiGooglecloud, SiAmazonwebservices } from 'react-icons/si';
-import { TbBrandLeetcode } from 'react-icons/tb';
+import { FaReact, FaNodeJs } from 'react-icons/fa';
+import { SiPostgresql, SiGooglecloud } from 'react-icons/si';
 import { BsArrowDownShort } from 'react-icons/bs';
 
 const ROLES = [
   'Full-Stack Developer (MERN)',
-  'AI-Integrated Web App Engineer',
-  'Distributed Backend & API Engineer',
+  'AI tools Integration',
+  'Distributed Backend & RESTful APIs',
   'Problem Solver • 150+ DSA Solved'
 ];
 
@@ -65,7 +65,7 @@ function Header() {
             <span className="typewriter_cursor">|</span>
           </div>
           <p className="header_bio">
-            B.Tech CSE (Artificial Intelligence) student at <strong>KIET Group of Institutions</strong> (CGPA: <strong>7.96</strong>). Passionate about high-concurrency transactional systems, MERN stack, and multi-modal generative AI pipelines.
+            Final-year B.Tech CSE (AI) student graduating in June 2027, with strong DSA, OOP, OS, and DBMS fundamentals and hands-on experience building MERN applications, REST APIs, and AI-powered products. Solved 150+ DSA problems and completed a full-stack internship.
           </p>
         </div>
 
@@ -78,7 +78,7 @@ function Header() {
         {/* Main Hero Visual Card */}
         <div className="hero_visual_wrapper">
           <div className="hero_glow_aura"></div>
-          
+
           <div className="me_frame">
             <img src={ME} alt="Harshit - Full Stack Developer" className="me_img" />
           </div>
@@ -111,38 +111,26 @@ function Header() {
           </div>
         </div>
 
-        {/* Quick Stats Bar - 4 Stat Rectangles */}
+        {/* Quick Stats Bar */}
         <div className="hero_stats_strip glass-card">
-          <div className="stat_box stat_rectangle">
-            <div className="stat_icon_badge icon_dsa">
-              <TbBrandLeetcode />
-            </div>
-            <span className="stat_number">150+</span>
-            <span className="stat_label">DSA Problems Solved</span>
+          <div className="stat_box">
+            <span className="stat_number">7.96</span>
+            <span className="stat_label">B.Tech CGPA (80%)</span>
           </div>
-
-          <div className="stat_box stat_rectangle">
-            <div className="stat_icon_badge icon_ai">
-              <FaLaptopCode />
-            </div>
-            <span className="stat_number">5+</span>
-            <span className="stat_label">Full-Stack Projects with AI Integrated</span>
+          <div className="stat_divider"></div>
+          <div className="stat_box">
+            <span className="stat_number">100+</span>
+            <span className="stat_label">DSA Challenges Solved</span>
           </div>
-
-          <div className="stat_box stat_rectangle">
-            <div className="stat_icon_badge icon_aws">
-              <SiAmazonwebservices />
-            </div>
-            <span className="stat_number">AWS SAA</span>
-            <span className="stat_label">Solutions Architect Associate Global Certificate</span>
+          <div className="stat_divider"></div>
+          <div className="stat_box">
+            <span className="stat_number">500+</span>
+            <span className="stat_label">Live Donor Txns Handled</span>
           </div>
-
-          <div className="stat_box stat_rectangle">
-            <div className="stat_icon_badge icon_ssb">
-              <FaAward />
-            </div>
-            <span className="stat_number">5+ Times</span>
-            <span className="stat_label">Qualified for SSB Merit</span>
+          <div className="stat_divider"></div>
+          <div className="stat_box">
+            <span className="stat_number">4+</span>
+            <span className="stat_label">Full-Stack AI Projects</span>
           </div>
         </div>
 
