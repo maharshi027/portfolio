@@ -64,8 +64,8 @@ function About() {
             <div className="about_feature_card glass-card">
               <FaAward className="about_feature_icon" />
               <h5>Recognitions</h5>
-              <strong>Samsung SFT</strong>
-              <small>Shortlisted in Round 1</small>
+              <strong>Contata Solutions Hackathon 2026</strong>
+              <small>Shortlisted for final Round</small>
             </div>
           </div>
 
