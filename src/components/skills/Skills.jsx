@@ -24,11 +24,8 @@ import {
   SiExpress,
   SiVite,
   SiPostman,
-  SiJest,
   SiGooglecloud,
-  SiLinux,
-  SiOpenai,
-  SiVercel
+
 } from 'react-icons/si';
 import { TbBrandLeetcode } from 'react-icons/tb';
 import { BsCpuFill } from 'react-icons/bs';
@@ -66,12 +63,9 @@ const SKILLS_DATA = [
 
   // AI & Testing & DevOps
   { name: 'Google Gemini API', category: 'ai-tools', level: 'Advanced', icon: SiGooglecloud, color: '#4285f4' },
-  { name: 'OpenAI & Prompt Eng.', category: 'ai-tools', level: 'Proficient', icon: SiOpenai, color: '#10a37f' },
-  { name: 'Jest & SuperTest', category: 'ai-tools', level: 'Proficient', icon: SiJest, color: '#c21325' },
   { name: 'Postman & QA Testing', category: 'ai-tools', level: 'Advanced', icon: SiPostman, color: '#ff6c37' },
   { name: 'Docker & Compose', category: 'ai-tools', level: 'Proficient', icon: FaDocker, color: '#2496ed' },
   { name: 'Git & GitHub', category: 'ai-tools', level: 'Advanced', icon: FaGitAlt, color: '#f05032' },
-  { name: 'Linux / Bash', category: 'ai-tools', level: 'Proficient', icon: SiLinux, color: '#fcc624' }
 ];
 
 const CATEGORIES = [
